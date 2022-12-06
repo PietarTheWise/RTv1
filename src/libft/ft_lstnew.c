@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pnoutere <pnoutere@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pietari <pietari@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 12:35:36 by pnoutere          #+#    #+#             */
-/*   Updated: 2021/11/29 13:17:50 by pnoutere         ###   ########.fr       */
+/*   Updated: 2022/12/06 13:24:05 by pietari          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,8 @@
 t_list	*ft_lstnew(void const *content, size_t content_size)
 {
 	t_list	*fresh;
-	char	*write;
 
 	fresh = NULL;
-	write = (char *)content;
 	fresh = (t_list *)malloc(sizeof(t_list));
 	if (!fresh)
 		return (NULL);

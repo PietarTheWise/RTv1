@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pnoutere <pnoutere@student.42.fr>          +#+  +:+       +#+        */
+/*   By: pietari <pietari@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 17:06:40 by pnoutere          #+#    #+#             */
-/*   Updated: 2021/12/02 13:30:35 by pnoutere         ###   ########.fr       */
+/*   Updated: 2022/12/06 13:24:08 by pietari          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,8 @@
 int	ft_strcmp(const char *s1, const char *s2)
 {
 	int	i;
-	int	result;
 
 	i = 0;
-	result = 0;
 	while ((unsigned char)s1[i])
 	{
 		if ((unsigned char)s1[i] > (unsigned char)s2[i])
