@@ -6,8 +6,11 @@
 
 <h3 align="center">Simple raytracer engine, built in c with SDL2</h3>
 
+<img src="screenshots/rtv1_cool.png"></img>
+
 <p align="center">
   <a href="#what-it-does">What it does?</a> •
+  <a href="#primitives">Primitives</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#disclaimer">Disclaimer</a>
 </p>
@@ -19,6 +22,10 @@
 * Takes in a parameter on the command line of a scene.
 * Parses the data in the file and creates the scene accordingly.
 * You can rotate the the camera and objects from the files.
+
+## Primitives
+
+<img src="screenshots/primitives.png"></img>
 
 ## How To Use
 
