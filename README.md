@@ -23,7 +23,7 @@
 * Parses the data in the file and creates the scene accordingly.
 * You can rotate the the camera and objects from the files.
 
-## Primitives
+## Primitives (sphere, cylinder, plane, cone)
 
 <img src="screenshots/primitives.png"></img>
 
@@ -42,8 +42,13 @@ $ make
 $ ./Rtv1 scenes/cool_scene
 
 #Note: There are other scenes on the scenes folder that you can run with the program.
+#You can also choose the colors, by changing the rbg values.
 
 ```
+## With multiple colors:
+<div align="center">
+  <img src="screenshots/rtv1_colors.png" width="50%"></img>
+</div>
 
 ## DISCLAIMER
 
