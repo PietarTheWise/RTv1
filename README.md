@@ -9,13 +9,13 @@
 <img src="screenshots/rtv1_cool.png"></img>
 
 <p align="center">
-  <a href="#what-it-does">What it does?</a> •
+  <a href="#what-does-it-do">What does it do?</a> •
   <a href="#primitives">Primitives</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#disclaimer">Disclaimer</a>
 </p>
 
-## What it does?
+## What does it do?
 
 * Renders pictures on the screen of a 3D scene.
 * Renders simple primitives like cone, cylinder, sphere and plane.
@@ -23,7 +23,8 @@
 * Parses the data in the file and creates the scene accordingly.
 * You can rotate the camera and objects from the files.
 
-## Primitives (sphere, cylinder, plane, cone)
+## Primitives
+(sphere, cylinder, plane, cone)
 
 <img src="screenshots/primitives.png"></img>
 
